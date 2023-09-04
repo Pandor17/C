@@ -9,6 +9,6 @@ int main()
     float fDivisión = iCaquitas / iAntonios;
     int iResto = iCaquitas % iAntonios;
     int iMultiplicación = iCaquitas * iAntonios;
-    printf("%d\n%d\n%d\n%d\n%f\ntopota", iSuma, iResta, iResto, iMultiplicación, fDivisión);
+    printf("Perico de los palotes iSuma %d\n%d\n%d\n%d\n%f\ntopota", iSuma, iResta, iResto, iMultiplicación, fDivisión);
     return 0;
 }
