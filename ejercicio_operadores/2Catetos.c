@@ -9,7 +9,7 @@ int main()
     /*Declaración de Variables*/
     float fCateto1 = 0;
     float fCateto2 = 0;
-    float fHipotenusa = 0;
+
    
     /*Introducción de valores*/
     printf("Introduzca el valor del Cateto 1:\n");
@@ -19,8 +19,7 @@ int main()
     scanf("%f", &fCateto2);
 
     /*Cálculo Hipotenusa*/
-    fHipotenusa = sqrt((fCateto1*fCateto1)+(fCateto2*fCateto2));
-
+    float fHipotenusa = sqrt((fCateto1*fCateto1)+(fCateto2*fCateto2));
     printf("El valor de la hipotenusa es:\n %f", fHipotenusa);
    
     return 0;
